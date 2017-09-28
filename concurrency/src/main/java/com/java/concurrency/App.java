@@ -1,5 +1,7 @@
 package com.java.concurrency;
 
+import com.java.concurrency.executors.SampleExecutor;
+
 /**
  * Hello world!
  *
@@ -8,6 +10,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+       
+    	SampleExecutor sampleExecutor = new SampleExecutor();
+    	sampleExecutor.execute();
     }
 }
