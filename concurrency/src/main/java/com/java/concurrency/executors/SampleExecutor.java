@@ -22,7 +22,6 @@ public class SampleExecutor {
 			executor.execute(task);
 
 
-
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
